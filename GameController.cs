@@ -60,9 +60,9 @@ public class GameController : MonoBehaviour
         LoadNextLevel();
     }
 
-    private void ReturnToMenu()
+    public void ReturnToMenu()
     {
-        SceneManager.LoadScene(0); 
+        SceneManager.LoadSceneAsync(0); 
     }
 
     private void LoadNextLevel()
